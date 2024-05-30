@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hugo Boss</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Hugo Boss Cipők</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Főoldal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Termékek</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kapcsolat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news">Hírek</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#uzlt">Üzletek</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div id="home" class="text-center py-5">
+        <div class="container">
+            <h2>Üdvözöljük a Hugo Boss cipők világában</h2>
+            <p>Prémium minőségű cipők minden alkalomra.</p>
+        </div>
+    </div>
+    
+    <div id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Termékek</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="hbeu50498282_001_200.webp" alt="Cipő 1" style="width: 300px; height: auto;">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Bőrcipő</h5>
+
+                            <p class="card-text">Ár: 79.200 Ft</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img src="hbeu50498245_001_200.webp" class="card-img-top" alt="Cipő 2" src="images/cipo1.jpg" alt="Cipő 1" style="width: 300px; height: auto;">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Sportcipő</h5>
+                            <p class="card-text">Ár: 79.200 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="loaferek-hugo-kris-loafer-broch-50513483-black-001-0000303640552.webp" class="card-img-top" alt="Cipő 3" src="images/cipo1.jpg" alt="Cipő 1" style="width: 300px; height: auto;">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Elegáns női cipő</h5>
+                            <p class="card-text">Ár: 64.220 Ft</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img src="felcipo-hugo-kerr-50497869-black-001-0000302920891.webp" class="card-img-top" alt="Cipő 4"src="images/cipo1.jpg" alt="Cipő 1" style="width: 300px; height: auto;">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Férfi félcipő</h5>
+                            <p class="card-text">Ár: 64.220 Ft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="stores" class="py-5">
+        <div class="container">
+            
+                <div id="uzlt">
+                    <h2 class="text-center">Üzletek</h2>
+                </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="store">
+                        <h3>Budapest</h3>
+                        <p>Cím: Andrássy út 10, 1061 Budapest</p>
+                        <p>Nyitvatartás: Hétfő - Péntek: 10:00 - 18:00</p>
+                        <p>Telefon: +36 1 234 5678</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="store">
+                        <h3>Győr</h3>
+                        <p>Cím: Baross út 3, 9021 Győr</p>
+                        <p>Nyitvatartás: Hétfő - Péntek: 9:00 - 17:00</p>
+                        <p>Telefon: +36 96 123 4567</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Kapcsolat</h2>
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Név:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Üzenet:</label>
+                    <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Küldés</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="news" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Hírek</h2>
+            <div class="news-item mb-4">
+                <h3>Új cipőkollekció érkezett</h3>
+                <p>2024 május 10.</p>
+                <p>Bemutatjuk a legújabb tavaszi-nyári cipőkollekciónkat, amely elérhető a Hugo Boss üzleteiben és online.</p>
+            </div>          
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <p> 2024 Hugo Boss</p>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

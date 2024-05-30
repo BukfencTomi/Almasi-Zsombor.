@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 20px;
+    background-color: aquamarine;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1em;
+}
+
+#home {
+    background: url('images/home-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #333;
+    background-color: dimgray;
+}
+#products {
+    background-color: dimgray;
+    color: #333;
+}
+#contact{
+    background-color: dimgray;
+}
+
+#news {
+    
+}
+uzlt{
+    background-color: dimgray;
+    color: azure;
+}
+
+#home h2, #home p {
+    color: white;
+}
+
+div {
+    padding: 60px 0;
+}
+
+.card img {
+    width: 100%; /* Ez a sor biztosítja, hogy a kép a kártya szélességéhez igazodjon */
+    height: auto;
+}
+
+.small-image {
+    width: 300px; /* Példa konkrét szélességre */
+    height: auto; /* Megtartja az arányokat */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
